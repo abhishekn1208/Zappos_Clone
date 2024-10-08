@@ -1,0 +1,31 @@
+.guide-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.guide{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#para1{
+    font-size: 17px;
+    padding: 10px;
+}
+#para2{
+    font-size: 17px;
+    font-weight: 700;
+}
+#para2:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.guide-img{
+    width: 70%;
+}
+.guide-img img{
+    width: 100%;
+}

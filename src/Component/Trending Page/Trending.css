@@ -1,0 +1,17 @@
+.Trending-component{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+.Trending-box img{
+    width: 100%;
+    cursor: pointer;
+}
+.Trending-box a{
+    color: black;
+    font-weight: 700;
+    margin: 10px;
+}

@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#slideDiv{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    background-color: #e5f1f8;
+    font-size: 20px;
+}
+#btn1{
+  
+    position: relative;
+    right: 33vw;
+    border: none;
+    font-size: 20px;
+}
+#btn2{
+  
+    position: relative;
+    left: 32vw;
+    border: none;
+    font-size: 20px;
+}

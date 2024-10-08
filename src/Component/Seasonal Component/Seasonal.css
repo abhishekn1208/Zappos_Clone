@@ -1,0 +1,40 @@
+.seasonal-component{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+}
+.autumn{    
+    margin: 10px;
+    text-align: center;
+
+}
+.autumn img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+.autumn p{
+    font-size: 18px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.autumn a{
+    color: black;
+    font-weight: 700;
+}
+#heading h2{
+    margin: 0px 47px;
+    padding: 20px 0px;
+   
+}
+#heading::before{
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    background-color: #F4EEE5;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}

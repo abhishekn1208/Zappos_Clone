@@ -1,0 +1,46 @@
+#bg-image {
+ 
+    background: url("https://p.itc.zappos/prod/?w=2048&h=-1&url=https://m.media-amazon.com/images/G/01/Zappos/2024/Homepage/9.30NEW/FALL-CAMPAIGN-HTT-HERO-TABLET-2048x853_1.gif%201x") no-repeat center center / cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+}   
+.bottom{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #F4EEE5;
+}
+.container{
+    width: 100%;
+}
+.bottom p:nth-child(1){
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.bottom p:nth-child(2){
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+    display: inline;
+}
+.bottom p:nth-child(2):hover{
+    color: blue;
+}
+.trending-page{
+    margin-top: 30px;
+}
+.trending-page h2{
+    margin-left: 20px;
+}
+.seasonalDiv{
+    height: 100vh;
+    width: 100%;
+}
+.prime-member{
+    margin-top: 55px;
+}
+.guide-component{
+    margin-top: 55px;
+}

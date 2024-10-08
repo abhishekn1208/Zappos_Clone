@@ -1,0 +1,21 @@
+.Prime{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #F4EEE5;
+    text-align: center;
+}
+.Prime h1{
+    padding: 15px;
+    font-size: 25px;
+}
+.Prime p{
+    font-size: 18px;
+}
+.Prime a{
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+}
+.Prime div{
+    padding: 10px;  
+}

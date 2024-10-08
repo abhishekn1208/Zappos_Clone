@@ -1,0 +1,75 @@
+#u-navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 5px;
+    align-items: center;
+    
+}
+#u-navbar img{
+    margin-left: 22px;
+}
+
+#u-navbar .search-box{
+    border: none;
+    width: 78%;
+    display: flex;
+  
+}
+.search-box input{
+    font-size: 15px;
+    border: 1px solid;
+    padding-left: 30px;
+    width: 48%;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.search-box button{
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 21px;
+    border: 1px solid;
+    border-radius: 0px 30px 30px 0px;
+    cursor: pointer;
+}
+#magnifire{
+    font-size: 17px;
+    position: relative;
+    left: 26px;
+    top: 15px;
+    color: #7c6b6b;
+}
+
+input:hover{
+    border: 2px solid rgb(0, 37, 245);
+}
+.search-box button:hover{
+    border: 2px solid rgb(0, 37, 245);
+    color: blue;
+}
+#font-box{
+    font-size: 26px;
+    padding: 8px;
+    margin: 8px;
+}
+#user{
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 7px;
+    background-color: white;
+
+}
+#user:hover{
+    background-color: #f5f5f5;
+}
+#bag1{
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 7px;
+    background-color: white;
+
+}
+#bag1{
+    background-color: #f5f5f5;
+}

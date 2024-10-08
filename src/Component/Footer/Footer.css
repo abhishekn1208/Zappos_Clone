@@ -1,0 +1,48 @@
+.s-media{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: 0 solid;
+    box-sizing: border-box;
+    column-gap: 34px;
+    margin: 30px 50px;
+}
+.s-media a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.s-media a:hover{
+    color: blue;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.e-content ul{
+    margin: 15px;
+}
+.e-content ul li{
+    list-style: none;
+    margin: 15px;
+}
+.e-content ul li a{
+text-decoration: none;
+color: black;
+}
+.content p{
+    margin: 20px 30px;
+    font-weight: 600;
+}
+.hr{
+    border: 1px dotted black;
+    width: 87%;
+    margin: auto;
+}
+.f-bottom{
+    display: flex;
+    justify-content: space-around;
+    line-height: 24px;
+    margin: 20px;
+}

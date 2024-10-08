@@ -1,0 +1,29 @@
+.container1{
+    display: flex;
+}
+.image-div{
+    margin: 10px;
+    text-align: center;
+}
+.image-div img{
+    width: 100%;
+}
+.main-style{
+    background-color: #F4EEE5;
+    
+}
+.image-div p:nth-child(1){
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.89);
+     margin: 13px;
+}
+.image-div p:nth-child(2){
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+h5{
+    font-size: 25px;
+    margin-left: 12px;
+    padding-top: 40px;
+}
